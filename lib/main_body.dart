@@ -35,7 +35,7 @@ class _FaceDetectionState extends State<FaceDetection> {
 
   Future<void> loadModel() async {
     try {
-      interpreter = await Interpreter.fromAsset('assets/mobilefacenet.tflite');
+      interpreter = await Interpreter.fromAsset('assets/mobile_face_net.tflite');
     } catch (e) {}
   }
 
